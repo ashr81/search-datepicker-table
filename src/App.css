@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.page-alignment {
+  margin-top: 100px;
+}
+
+.search-box {
+  cursor: pointer;
+}
+
+.date-range-container {
+  max-width: 300px;
+}
+
+.daterangepicker {
+  position: absolute;
+  color: inherit;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  max-width: none;
+  padding: 0px;
+  height: 0px;
+  margin-top: 7px;
+  left: 475px;
+  top: 12px;
+  z-index: 3001;
+  display: none;
+  font-family: arial;
+  font-size: 15px;
+  line-height: 1em;
+}
+
+table thead th{
+  text-align: center;
+}
+
+.date-range-text {
+  position: absolute;
+  width: 220px !important;
+  right: 0px;
+  height: 40px;
+  top: -30px;
+}
+.date-range-icon{
+  top: -17px;
+  left: -5px;
+}
+
+input[type="text"] {
+    padding: 6px;
+    width: 100%;
+    border-radius: 4px;
+}
